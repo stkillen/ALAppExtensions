@@ -679,6 +679,10 @@ dotnet
         {
         }
 
+        type("Microsoft.Dynamics.Nav.Runtime.CompoundTokenInfo"; "CompoundTokenInfo")
+        {
+        }
+
         type("Microsoft.Dynamics.Nav.Runtime.Designer.DesignerFieldProperty"; "DesignerFieldProperty")
         {
         }
@@ -1097,6 +1101,14 @@ dotnet
         }
 
         type("Microsoft.Office.Interop.Word.WdWindowState"; "WdWindowState")
+        {
+        }
+
+        type("Microsoft.Office.Interop.Word.Fields"; "Microsoft.Office.Interop.Word.Fields")
+        {
+        }
+
+        type("Microsoft.Office.Interop.Word.Range"; "Microsoft.Office.Interop.Word.Range")
         {
         }
     }
@@ -1584,6 +1596,10 @@ dotnet
         }
 
         type("System.Net.HttpWebResponse"; "HttpWebResponse")
+        {
+        }
+
+        type("System.Net.Mail.MailAddress"; "MailAddress")
         {
         }
 
@@ -2244,6 +2260,13 @@ dotnet
         }
 
         type("MimeKit.ContentObject"; "MimeContentObject")
+        {
+        }
+    }
+
+    assembly("IDAutomation.LinearFontEncoder")
+    {
+        type("IDAutomation.Linear.FontEncoder"; "FontEncoder")
         {
         }
     }
